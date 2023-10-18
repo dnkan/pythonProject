@@ -1,4 +1,6 @@
 
+# Сумма и разность
+
 def summa_numbers(n):
     summ = 0
     while n:
