@@ -9,17 +9,17 @@ shop = [
 # Запрашиваем у пользователя название детали.
 # По названию выводим количество деталей и общую их стоимость:
 
-name = input('Название детали: ')
+detail = input('Название детали: ')
 
-count_part = 0
+count_detail = 0
 count_cost = 0
-for part in shop:
-    if name in part:
-        count_part += 1
-        count_cost += part[1]
+for title in shop:
+    if detail in title:
+        count_detail += 1
+        count_cost += title[1]
 
-if count_part > 0:
-    print('Количество деталей:', count_part, '\nОбщая стоимость:', count_cost)
+if count_detail > 0:
+    print('Количество деталей:', count_detail, '\nОбщая стоимость:', count_cost)
 else:
     print('Такой детали в магазине нет.')
 

@@ -8,7 +8,7 @@ numbers_rolls = int(input('Количество коньков: '))
 numbers_people = int(input('Количество человек: '))
 
 rolls_list = []
-people_list = []
+foot_list = []
 count = 0
 
 for i_roll in range(numbers_rolls):
@@ -16,17 +16,17 @@ for i_roll in range(numbers_rolls):
     roll = int(input(': '))
     rolls_list.append(roll)
 
-for i_people in range(numbers_people):
-    print('Размер ноги человека', i_people + 1, end='')
-    people = int(input(': '))
-    people_list.append(people)
+for i_foot in range(numbers_people):
+    print('Размер ноги человека', i_foot + 1, end='')
+    foot = int(input(': '))
+    foot_list.append(foot)
 
 rolls_list.sort()
-people_list.sort()
+foot_list.sort()
 
-for people in people_list:
+for foot in foot_list:
     for roll in rolls_list:
-        if people <= roll:
+        if foot <= roll:
             count += 1
             rolls_list.remove(roll)
             break

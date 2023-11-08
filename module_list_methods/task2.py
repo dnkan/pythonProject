@@ -9,7 +9,7 @@ def sorted_func(list_1, list_2):
                 break
 
 # Функция сортирования списка чисел по возрастанию:
-def new_sorted_func(list):
+def sorted_func(list):
     for i_num in range(len(list)):
         for j_num in range(i_num, len(list)):
             if list[j_num] < list[i_num]:
@@ -36,7 +36,7 @@ second_rank = list(range(162, 181, 3))
 
 # № 3:
 second_rank.extend(first_rank)
-new_sorted_func(second_rank)
+sorted_func(second_rank)
 print('Отсортированный список:', second_rank)
 
 
