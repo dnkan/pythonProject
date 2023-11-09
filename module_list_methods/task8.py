@@ -28,7 +28,10 @@ while True:
 print('\nНужно приписать чисел:', len(new_numbers_list))
 print('Сами числа:', new_numbers_list)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> github/master
 # Второй способ решения:
 
 # count = 0
@@ -38,6 +41,7 @@ print('Сами числа:', new_numbers_list)
 #
 # print('Нужно приписать чисел:', count)
 # print('Сами числа:', numbers_list[:count][::-1])
+<<<<<<< HEAD
 
 
 # Также можно решить задачу следующим способом:
@@ -65,3 +69,5 @@ for i_nums in range(len(nums_list)):
         print('Ответ:', answer)
         break
     new_nums_list = []
+=======
+>>>>>>> github/master
